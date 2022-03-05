@@ -10,7 +10,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet" />
   </head>
-  <body class="font-manrope">
-    <h1 class="text-3xl font-bold">Hello world!</h1>
+  <body class="font-manrope h-screen bg-Dark-Blue grid place-items-center px-4">
+    <main
+      class="max-w-[33.75rem] bg-Dark-Grayish-Blue rounded-xl sm:rounded-2xl shadow-main text-center px-4 sm:px-10 pt-10"
+    >
+      <h1 id="advice" class="text-xs sm:text-sm text-Neon-Green">ADVICE #117</h1>
+
+      <blockquote id="quote" class="text-md sm:text-lg text-Ligh-Cyan my-6 sm:mb-10">
+        “It is easy to sit up and take notice, what's difficult is getting up and taking action.”
+      </blockquote>
+
+      <img src="images/pattern-divider-desktop.svg" alt="divider" class="mx-auto h-4" />
+
+      <button
+        id="dice-btn"
+        class="w-16 h-16 mx-auto bg-Neon-Green hover:shadow-glowing hover:shadow-Neon-Green transition-all rounded-full grid place-items-center translate-y-1/2"
+      >
+        <img src="images/icon-dice.svg" alt="dice" />
+      </button>
+    </main>
   </body>
 </html>
